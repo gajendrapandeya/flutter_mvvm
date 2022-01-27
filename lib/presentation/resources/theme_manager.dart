@@ -62,6 +62,10 @@ ThemeData getApplicationTheme() {
         color: ColorManager.lightGrey,
         fontSize: FontSizeManager.s14,
       ),
+      subtitle2: getMediumStyle(
+        color: ColorManager.primary,
+        fontSize: FontSizeManager.s14,
+      ),
       caption: getRegularStyle(color: ColorManager.grey1),
       bodyText1: getRegularStyle(color: ColorManager.grey),
     ),
